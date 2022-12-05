@@ -1,5 +1,4 @@
 pub fn part_one(input: &str) -> Option<u32> {
-
     let mut stacks: Vec<Vec<_>> = vec![Vec::new(); 9];
 
     for line in input.lines() {
