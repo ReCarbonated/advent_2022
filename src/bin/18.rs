@@ -9,11 +9,11 @@ struct Cube {
 }
 
 impl Cube {
-    fn new(x: i64, y: i64, z: i64, idx: usize) -> Cube {
+    fn new(x: i64, y: i64, z: i64, _idx: usize) -> Cube {
         Cube {
-            x: x,
-            y: y,
-            z: z,
+            x,
+            y,
+            z,
             idx: 0,
         }
     }
